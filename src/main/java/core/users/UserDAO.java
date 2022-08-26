@@ -32,7 +32,9 @@ public class UserDAO {
                 "SELECT id, username, name, created_at FROM users WHERE username = ?");
         s.setString(1, username);
         ResultSet res = s.executeQuery();
-        res.next();
+        if (!res.next()) {
+            return null;
+        }
         return setToUser(res);
     }
 
