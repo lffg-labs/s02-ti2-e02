@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Database {
-    public static Connection getConnection() {
+    public static Connection getConnection() throws SQLException {
         Connection connection = null;
         String host = env("PGHOST");
         String database = env("PGDATABASE");
@@ -16,8 +16,6 @@ public class Database {
         try {
             Class.forName("org.postgresql.Driver");
             connection = DriverManager.getConnection(url, user, password);
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
         }

@@ -2,4 +2,8 @@ java_binary(
     name = "Main",
     srcs = ["Main.java"],
     visibility = ["//:__pkg__"],
+    deps = [
+        "//src/main/java/core/users",
+        "//src/main/java/lib:Database",
+    ],
 )
