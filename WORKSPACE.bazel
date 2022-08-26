@@ -22,7 +22,9 @@ rules_jvm_external_setup()
 load("@rules_jvm_external//:defs.bzl", "maven_install")
 
 maven_install(
-    artifacts = [],
+    artifacts = [
+        "org.postgresql:postgresql:42.5.0",
+    ],
     repositories = [
         "https://maven.google.com",
         "https://repo1.maven.org/maven2",

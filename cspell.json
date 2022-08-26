@@ -15,7 +15,29 @@
     ".git"
   ],
   "words": [
+    "asspathentry",
     "bazel",
+    "buildtools",
+    "classpath",
+    "classpathentry",
+    "concat",
+    "DBROOT",
+    "iname",
+    "initdb",
+    "javabuilder",
+    "javanature",
+    "jdbc",
+    "mkdir",
+    "nixpkgs",
+    "numtide",
+    "PGDATA",
+    "PGDATABASE",
+    "PGHOST",
+    "PGPASSWORD",
+    "PGPORT",
+    "PGSQL",
+    "PGUSER",
+    "pkgs",
     "srcs"
   ]
 }

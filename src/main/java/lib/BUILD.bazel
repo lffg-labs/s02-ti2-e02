@@ -1,0 +1,6 @@
+java_library(
+    name = "Database",
+    srcs = ["Database.java"],
+    visibility = ["//visibility:public"],
+    deps = ["@maven//:org_postgresql_postgresql"],
+)
