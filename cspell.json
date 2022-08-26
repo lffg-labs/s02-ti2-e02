@@ -1,0 +1,21 @@
+{
+  "version": "0.2",
+  "enabledLanguageIds": [
+    "*"
+  ],
+  "languageSettings": [
+    {
+      "languageId": "*",
+      "locale": "*",
+      "caseSensitive": false
+    }
+  ],
+  "useGitignore": true,
+  "ignorePaths": [
+    ".git"
+  ],
+  "words": [
+    "bazel",
+    "srcs"
+  ]
+}

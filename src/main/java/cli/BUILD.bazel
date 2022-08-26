@@ -1,0 +1,5 @@
+java_binary(
+    name = "Main",
+    srcs = ["Main.java"],
+    visibility = ["//:__pkg__"],
+)

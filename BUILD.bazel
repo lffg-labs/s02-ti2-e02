@@ -1,0 +1,4 @@
+alias(
+    name = "Main",
+    actual = "//src/main/java/cli:Main",
+)
